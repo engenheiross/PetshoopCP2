@@ -3,45 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>Pet Shop</title>
+    <title>BIKECITY - Login</title>
+    <link rel="shortcut icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-        <h1>PET SHOP</h1>
-        <nav class="navbar">
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pets.html">Pets</a>
-                    <ul>
-                        <li><a href="">Gatos</a></li>
-                        <li><a href="">Cachorros</a></li>
-                        <li><a href="">Coelhos</a></li>
-                        <li><a href="">Aves</a></li>
-                    </ul>            
-                </li>
-                <li><a href="produtos.html">Produtos</a>
-                    <ul>
-                        <li><a href="">Shampoos</a></li>
-                        <li><a href="">Rações</a></li>
-                        <li><a href="">Brinquedos</a></li>
-                    </ul>
-                </li>
-                <li><a href="contato.html" id="contato">Contato</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+    <div id="header">
+        <p id="header-logo">
+            <img id="logo "alt="logo" src="./img/icon.png">
+        </p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a>Loja</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a>Contato</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
-    <main>
-        <h2>Página Sobre</h2>
-        <h3>SObre Nós<hr>Bem-vindo ao Littlest Pet Shop!<hr></h3>
-        <h3 id="sobre">Somos uma loja pet que se dedica a fornecer produtos e e serviços de alta qualidade para seu animal de estimação. Somos uma equipe de amanates de animais apaixonados por fornecer aos nossos clientes os melhores produtos para seus amados amigos peludos.</h3>
-        
-    </main>
+    </div>
+
+    <div id="login">
+        <h2>Faça seu login</h2>
+        <p>Preencha os campos abaixo para acessar sua conta:</p>
+
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu email"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <hr>
     <footer>
-        <h4>Contato</h4>
-        <p>11-2345-4255-1325</p>
-        <h4>Sobre</h4>
-        <p>@2024-todos os direitos reservados</p>
+        <h5>© 2024 - Todos os direitos reservados.</h5>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="./quiz.js"></script>
 </body>
 </html>
