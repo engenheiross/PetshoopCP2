@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Pet Shop</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        section{
+            background-color: aqua;
+            width: 1200px;
+        }
+        @media(max-width: 1200px){
+            section{
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+        <h1>PET SHOP LITTLEST</h1>
+        <nav class="navbar">
+            <ul id="menu">
+                <img src="./img/logo1.png" id="logo">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html">Pets</a>
+                    <ul>
+                        <li><a href="pets.html">Gatos</a></li>
+                        <li><a href="pets.html">Cães</a></li>
+                        <li><a href="pets.html">Coelhos</a></li>
+                        <li><a href="pets.html">Aves</a></li>
+                    </ul>            
+                </li>
+                <li><a href="produtos.html">Produtos</a>
+                    <ul>
+                        <li><a href="">Shampoos</a></li>
+                        <li><a href="">Rações</a></li>
+                        <li><a href="">Brinquedos</a></li>
+                    </ul>
+                </li>
+                <li><a href="contato.html" id="contato">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h2>Início</h3>
+        <p>Bem Vindo ao Pet Shop Littlest</p>
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+                
+                <div class="slide s1">
+                    <img src="./img/petshop.jpg" alt="sobre"> 
+                </div>
+                <div class="slide">
+                    <img src="./img/gatos.jpg" alt="gato">
+                </div>
+                <div class="slide">
+                    <img src="./img/dogs.jpg" alt="cachorro">
+                </div>
+                <div class="slide">
+                    <img src="./img/coelhos.JPG" alt="coelho">
+                </div>
+                <div class="slide">
+                    <img src="./img/aves.jpeg" alt="ave">
+                </div>
+                <div class="navegação">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar"for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Central de atendimento</h4>
+        <h3>SAC Serviço ed atendimento ao consumidor</h3>
+        <h3>@2024 Todos os direitos reservados.</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
